@@ -1,0 +1,84 @@
+$blue: #00AEEF;
+$yellow: #FFF200;
+
+body {
+    margin: 0;
+    font-family: "Open Sans";
+}
+
+h2 {
+    letter-spacing: 0.1em;
+    font-family: "PT Serif";
+    font-weight: normal;
+
+    &:before, &:after {
+                  //content: '—';
+                  margin: 0.5em;
+              }
+}
+
+.splash {
+    color: white;
+    background-color: #f0f0f0;
+    padding: 140px 0px;
+    background-image: url(bg.jpg);
+    background-size: cover;
+
+    .logo {
+        text-indent: -999999px;
+        background-image: url(logo.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        width: 500px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tagline {
+        font-size: 0.75cm;
+        font-family: "PT Mono";
+        text-align: center;
+    }
+
+    input {
+        color: white;
+    }
+
+    .form {
+        margin-top: 50px;
+        text-align: center;
+    }
+}
+
+
+input[type=text] {
+    border: 0;
+    font: inherit;
+    border-bottom: 2px solid $yellow;
+    border-top: 2px solid transparent;
+    background: transparent;
+    outline: 0;
+    display: inline-block;
+    padding: 0.9em 2em;
+
+}
+
+.btn.btn-inline.btn-blue {
+    border: 2px solid $blue;
+    background-color: transparent;
+    color: $blue;
+    padding: 0.9em 2em;
+    font: inherit;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    font-size: 0.9em;
+
+    &:hover {
+        background-color: $blue;
+        color: black;
+    }
+}
