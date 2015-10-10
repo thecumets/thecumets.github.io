@@ -60,4 +60,8 @@ input[type=text] {
     background-color: #00AEEF;
     color: black; }
 
+.copyright {
+  text-align: center;
+  padding: 50px; }
+
 /*# sourceMappingURL=styles.css.map */
