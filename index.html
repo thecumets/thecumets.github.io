@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>CumETS</title>
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/subscribe.js"></script>
   <link href="assets/styles.css" rel="stylesheet" />
 </head>
 <body>
@@ -11,10 +13,8 @@
     <div class="tagline">Cum before they come</div>
 
     <div class="form">
-      <form action="http://cumets.com/subscription/add" method="POST">
-        <input placeholder="email@example.com" name="email" type="text" value="" />
-        <input type="submit" value="Subscribe" class="btn btn-inline btn-blue"/>
-      </form>
+        <input id="email" placeholder="email@example.com" name="email" type="text" value="" />
+        <input id="sub-button" type="submit" value="Subscribe" class="btn btn-inline btn-blue"/>
     </div>
   </div>
 
